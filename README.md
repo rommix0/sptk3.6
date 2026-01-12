@@ -4,4 +4,4 @@ This is a patched version ready to be used with Festival's FestVox voice buildin
 
 The original unpatched files are under the ORIG extension.
 
-For building and compiling, refer to the INSTALL file.
+For building and compiling, refer to the INSTALL.NEW file.

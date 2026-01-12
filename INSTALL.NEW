@@ -1,0 +1,6 @@
+Installation Instructions
+*************************
+
+mkdir build
+CXXFLAGS="-std=gnu++0x" CFLAGS="-std=c11" ./configure --prefix="$(pwd)/build"
+make
