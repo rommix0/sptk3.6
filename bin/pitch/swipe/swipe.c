@@ -115,6 +115,11 @@
 #define MIN     100.
 #define MAX     600.
 
+// fixes M_PI undeclared error for MSYS2
+#ifndef M_PI
+	#define M_PI 3.14159265
+#endif
+
 #ifndef NAN
     #define NAN sqrt(-1.)
 #endif
