@@ -63,10 +63,12 @@ static void epsf_init(int *xmin, int *ymin, int *xmax, int *ymax, int ncopy)
 {
    char *user_name;
    char creation_date[64];
-   long t;
+   //long t;
+   time_t t;
 
    user_name = (char *) getenv("USER");
-   t = time(NULL);
+   //t = time(NULL);
+   t = mktime(NULL);
    strcpy(creation_date, asctime(localtime(&t)));
 
    if (psmode)
